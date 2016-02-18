@@ -1,0 +1,21 @@
+{
+    "name": "fonclub/yii2-languages",
+    "description": "Yii2 DB languages",
+    "license": "MIT LICENCE",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Fonclub",
+            "email": "sfonclub@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload"   : {
+        "psr-4": {
+            "fonclub\\languages\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "fonclub\\languages\\Bootstrap"
+    }
+}
